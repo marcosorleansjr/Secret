@@ -81,11 +81,8 @@ app.route("/login")
         }
     });
 
-<<<<<<< HEAD
 }); 
 
-=======
->>>>>>> 14a37ed29a1cc5b2c95229b539655e128e1835f1
 app.route("/register")
 .get(function(req, res){
     res.render("register");
@@ -104,7 +101,6 @@ app.route("/register")
     });
       
 });
-<<<<<<< HEAD
 
 app.route("/secrets")
 .get(function(req, res){
@@ -114,5 +110,4 @@ app.route("/secrets")
         res.redirect("/login");
     }
 });
-=======
->>>>>>> 14a37ed29a1cc5b2c95229b539655e128e1835f1
+
