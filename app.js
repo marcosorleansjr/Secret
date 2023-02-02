@@ -67,10 +67,6 @@ app.route("/login")
     });
 }); 
 
-app.get("/register", function(req, res){
-    res.render("register");
-});
-
 app.route("/register")
 .get(function(req, res){
     res.render("register");
